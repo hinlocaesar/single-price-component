@@ -18,8 +18,8 @@ body{
 
 :root{
     --white: hsl(0, 0%, 100%);
-    --cyan: hsl(179, 62%, 43%);
-    --ltcyan: hsl(178, 37%, 30%);
+    --cyan: #2BB3B1;
+    --ltcyan:#4ABEBD;
     --yellow:hsl(71, 73%, 54%);
     --darkyellow:hsl(71, 73%, 48%);
     --ltgray: hsl(204, 43%, 93%);
@@ -116,6 +116,7 @@ margin-bottom:0;
     align-items: center;
     font-size:2rem;
     margin-bottom:0.25rem;
+    font-weight:bold;
 }
 
 .subscription__price span{
@@ -126,7 +127,7 @@ margin-bottom:0;
 }
 
 .subscription p{
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     margin-bottom:1.75rem;
 }
 
